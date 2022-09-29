@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    background-color: bisque;
+}
+
+h1{
+    padding: 25px;
+    font-family: monospace, Arial, Helvetica;
+    font-size: 30px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(233, 199, 30);
+    border: 1px solid gray;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.o{
+    position: relative;
+
+}
+
+.o::after{
+    position: absolute;
+    content: "\2B55";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+
+}
+
+.x::after{
+    position: absolute;
+    content: "\274C";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+button{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50PX;
+    border: 1px solid gray;
+    margin: 50px;
+}
